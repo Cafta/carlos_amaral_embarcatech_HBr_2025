@@ -20,5 +20,6 @@ Cada projeto tem sua própria pasta, contendo o código-fonte, documentação e 
 
 ## Projetos
 
-Aqui serão incluídos os projetos. No momento não há projeto pronto.
+[Projeto da Primeira Fase - RCP Helper](./Cafta/EmbarcaTech) 
+Projeto de um temporizador para auxílio da equipe médica do controle de tempos e orientação de procedimento em Ressucitação Cardio Pulmonar (RCP) para pacientes em parada cardíaca em ambiente hospitalar.
 
