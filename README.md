@@ -1,37 +1,45 @@
-# Projetos de Sistemas Embarcados - EmbarcaTech 2025
+# Embedded Systems Projects - EmbarcaTech 2025
 
-Autor: **Carlos Amaral**
+Author: **Carlos Amaral**
 
-Curso: Residência Tecnológica em Sistemas Embarcados
+Course: Technological Residency in Embedded Systems
 
-Instituição: EmbarcaTech - HBr
+Institution: EmbarcaTech - HBr
 
-Campinas, março de 2025
-
----
-
-## Sobre este repositório
-
-Este repositório reúne os projetos desenvolvidos ao longo do curso de Sistemas Embarcados, durante a etapa de residência.  
-
-Cada projeto tem sua própria pasta, contendo o código-fonte, documentação e recursos visuais.
+Campinas, March 2025
 
 ---
 
-## Projeto Final Primeira Fase
+## About this repository
 
-[Projeto da Primeira Fase - RCP Helper](https://github.com/Cafta/EmbarcaTech)
+This repository gathers the projects developed throughout the Embedded Systems course, during the residency phase.  
 
-Projeto de um temporizador para auxílio da equipe médica do controle de tempos e orientação de procedimento em Ressucitação Cardio Pulmonar (RCP) para pacientes em parada cardíaca em ambiente hospitalar.
+Each project has its own folder, containing the source code, documentation, and visual resources.
 
-## Projetos Segunda Fase
+---
 
-[Projeto 1 - Contador de clicks por interrupções](https://github.com/Cafta/EmbarcaTech/tree/main/Proj_01)
+## Final Project - First Phase
 
-Contador de clicks no botão B, por 10 segundos, com contagem regressiva. Inicia ao clicar em A.
+[First Phase Project - RCP Helper](https://github.com/Cafta/EmbarcaTech)
 
-Forma utilizados neste projeto: 
-* Interrupções de botões, Timer e Alarme; 
-* Matrix de 5x5 leds; 
-* Display OLED.  
+Project of a timer to assist the medical team in time control and procedure guidance during Cardiopulmonary Resuscitation (CPR) for cardiac arrest patients in a hospital environment.
 
+## Second Phase Projects
+
+[Project 1 - Click Counter with Interrupts](https://github.com/Cafta/EmbarcaTech/tree/main/Proj_01)
+
+Button B click counter, for 10 seconds, with countdown. Starts by pressing button A.
+
+Techniques used in this project:  
+* Button interrupts, Timer, and Alarm;  
+* 5x5 LED matrix;  
+* OLED display.  
+
+[Project 2 - Click Counter with Interrupts](https://github.com/Cafta/EmbarcaTech/tree/main/Proj_02)
+
+Create a C program to read the digitally converted joystick values from the BitDogLab board. The values should be displayed either on the serial monitor or on the OLED display.
+
+Techniques used in this project  
+* ADC (Analogic Digital Converter) on the RP2040
+* I<sup>2</sup>C Communication
+* OLED display interface  
