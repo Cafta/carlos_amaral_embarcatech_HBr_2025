@@ -30,14 +30,23 @@ Project of a timer to assist the medical team in time control and procedure guid
 
 Button B click counter, for 10 seconds, with countdown. Starts by pressing button A.
 
-Techniques used in this project:  
-* Button interrupts, Timer, and Alarm;  
-* 5x5 LED matrix;  
-* OLED display.  
+Techniques used in this project  
+* Button interrupts, Timer, and Alarm  
+* 5x5 LED matrix  
+* OLED display interface  
 
 [Project 2 - Joystick Monitor](https://github.com/Cafta/EmbarcaTech/tree/main/Proj_02)
 
 Create a C program to read the digitally converted joystick values from the BitDogLab board. The values should be displayed either on the serial monitor or on the OLED display.
+
+Techniques used in this project  
+* ADC (Analogic Digital Converter) on the RP2040
+* I<sup>2</sup>C Communication
+* OLED display interface  
+
+[Project 3 - Temperature Monitor](https://github.com/Cafta/EmbarcaTech/tree/main/Proj_03)
+
+Create a C program to read the internal temperature of the RP2040 and display the result in °C.
 
 Techniques used in this project  
 * ADC (Analogic Digital Converter) on the RP2040
